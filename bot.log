@@ -1,0 +1,1223 @@
+2025-06-30 12:26:59,836 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-30 12:26:59,838 - Added job "ping_self" to job store "default"
+2025-06-30 12:26:59,838 - Scheduler started
+2025-06-30 12:26:59,839 -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.0.5.2:10000 (Press CTRL+C to quit)
+2025-06-30 12:26:59,839 - Looking for jobs to run
+2025-06-30 12:26:59,841 - Next wakeup is due at 2025-06-30 12:29:59.836325+00:00 (in 179.995085 seconds)
+2025-06-30 12:27:05,292 - Initializing shazamio_core module
+2025-06-30 12:27:05,292 - shazamio_core module initialized successfully
+2025-06-30 12:27:05,786 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-06-30 12:27:05,787 - /etc/localtime found
+2025-06-30 12:27:05,788 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-06-30 12:27:05,789 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-30 12:27:05,789 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-06-30 12:27:05,789 - Scheduler started
+2025-06-30 12:27:05,790 - Looking for jobs to run
+2025-06-30 12:27:05,791 - Next wakeup is due at 2025-06-30 13:27:05.788923+00:00 (in 3599.997586 seconds)
+2025-06-30 12:27:06,195 - Bot Started As zunknoebot
+
+2025-06-30 12:29:59,837 - Looking for jobs to run
+2025-06-30 12:29:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:29:59 UTC)" (scheduled at 2025-06-30 12:29:59.836325+00:00)
+2025-06-30 12:29:59,837 - Next wakeup is due at 2025-06-30 12:32:59.836325+00:00 (in 179.998356 seconds)
+2025-06-30 12:29:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:29:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346307a70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:29:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:32:59 UTC)" executed successfully
+2025-06-30 12:32:59,838 - Looking for jobs to run
+2025-06-30 12:32:59,839 - Next wakeup is due at 2025-06-30 12:35:59.836325+00:00 (in 179.996961 seconds)
+2025-06-30 12:32:59,839 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:35:59 UTC)" (scheduled at 2025-06-30 12:32:59.836325+00:00)
+2025-06-30 12:32:59,841 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:32:59,842 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34633bbf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:32:59,842 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:35:59 UTC)" executed successfully
+2025-06-30 12:35:59,837 - Looking for jobs to run
+2025-06-30 12:35:59,837 - Next wakeup is due at 2025-06-30 12:38:59.836325+00:00 (in 179.998797 seconds)
+2025-06-30 12:35:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:38:59 UTC)" (scheduled at 2025-06-30 12:35:59.836325+00:00)
+2025-06-30 12:35:59,838 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:35:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463712b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:35:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:38:59 UTC)" executed successfully
+2025-06-30 12:38:59,836 - Looking for jobs to run
+2025-06-30 12:38:59,837 - Next wakeup is due at 2025-06-30 12:41:59.836325+00:00 (in 179.999052 seconds)
+2025-06-30 12:38:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:41:59 UTC)" (scheduled at 2025-06-30 12:38:59.836325+00:00)
+2025-06-30 12:38:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:38:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463728a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:38:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:41:59 UTC)" executed successfully
+2025-06-30 12:41:59,836 - Looking for jobs to run
+2025-06-30 12:41:59,837 - Next wakeup is due at 2025-06-30 12:44:59.836325+00:00 (in 179.998839 seconds)
+2025-06-30 12:41:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:44:59 UTC)" (scheduled at 2025-06-30 12:41:59.836325+00:00)
+2025-06-30 12:41:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:41:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346339280>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:41:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:44:59 UTC)" executed successfully
+2025-06-30 12:44:59,838 - Looking for jobs to run
+2025-06-30 12:44:59,840 - Next wakeup is due at 2025-06-30 12:47:59.836325+00:00 (in 179.995409 seconds)
+2025-06-30 12:44:59,841 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:47:59 UTC)" (scheduled at 2025-06-30 12:44:59.836325+00:00)
+2025-06-30 12:44:59,842 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:44:59,843 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463712b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:44:59,843 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:47:59 UTC)" executed successfully
+2025-06-30 12:47:59,844 - Looking for jobs to run
+2025-06-30 12:47:59,846 - Next wakeup is due at 2025-06-30 12:50:59.836325+00:00 (in 179.990256 seconds)
+2025-06-30 12:47:59,846 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:50:59 UTC)" (scheduled at 2025-06-30 12:47:59.836325+00:00)
+2025-06-30 12:47:59,848 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:47:59,850 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346394110>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:47:59,850 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:50:59 UTC)" executed successfully
+2025-06-30 12:50:59,837 - Looking for jobs to run
+2025-06-30 12:50:59,839 - Next wakeup is due at 2025-06-30 12:53:59.836325+00:00 (in 179.997142 seconds)
+2025-06-30 12:50:59,840 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:53:59 UTC)" (scheduled at 2025-06-30 12:50:59.836325+00:00)
+2025-06-30 12:50:59,842 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:50:59,852 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463957c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:50:59,859 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:53:59 UTC)" executed successfully
+2025-06-30 12:53:59,836 - Looking for jobs to run
+2025-06-30 12:53:59,837 - Next wakeup is due at 2025-06-30 12:56:59.836325+00:00 (in 179.999133 seconds)
+2025-06-30 12:53:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:56:59 UTC)" (scheduled at 2025-06-30 12:53:59.836325+00:00)
+2025-06-30 12:53:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:53:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346373e90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:53:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:56:59 UTC)" executed successfully
+2025-06-30 12:56:59,838 - Looking for jobs to run
+2025-06-30 12:56:59,840 - Next wakeup is due at 2025-06-30 12:59:59.836325+00:00 (in 179.996256 seconds)
+2025-06-30 12:56:59,840 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:59:59 UTC)" (scheduled at 2025-06-30 12:56:59.836325+00:00)
+2025-06-30 12:56:59,841 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:56:59,842 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346371940>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:56:59,843 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 12:59:59 UTC)" executed successfully
+2025-06-30 12:59:59,837 - Looking for jobs to run
+2025-06-30 12:59:59,837 - Next wakeup is due at 2025-06-30 13:02:59.836325+00:00 (in 179.998468 seconds)
+2025-06-30 12:59:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:02:59 UTC)" (scheduled at 2025-06-30 12:59:59.836325+00:00)
+2025-06-30 12:59:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 12:59:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a47d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 12:59:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:02:59 UTC)" executed successfully
+2025-06-30 13:02:59,836 - Looking for jobs to run
+2025-06-30 13:02:59,837 - Next wakeup is due at 2025-06-30 13:05:59.836325+00:00 (in 179.998374 seconds)
+2025-06-30 13:02:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:05:59 UTC)" (scheduled at 2025-06-30 13:02:59.836325+00:00)
+2025-06-30 13:02:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:02:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463709b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:02:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:05:59 UTC)" executed successfully
+2025-06-30 13:05:59,836 - Looking for jobs to run
+2025-06-30 13:05:59,837 - Next wakeup is due at 2025-06-30 13:08:59.836325+00:00 (in 179.999056 seconds)
+2025-06-30 13:05:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:08:59 UTC)" (scheduled at 2025-06-30 13:05:59.836325+00:00)
+2025-06-30 13:05:59,838 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:05:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a4b30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:05:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:08:59 UTC)" executed successfully
+2025-06-30 13:08:59,836 - Looking for jobs to run
+2025-06-30 13:08:59,838 - Next wakeup is due at 2025-06-30 13:11:59.836325+00:00 (in 179.998152 seconds)
+2025-06-30 13:08:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:11:59 UTC)" (scheduled at 2025-06-30 13:08:59.836325+00:00)
+2025-06-30 13:08:59,841 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:08:59,842 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a7080>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:08:59,842 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:11:59 UTC)" executed successfully
+2025-06-30 13:11:59,838 - Looking for jobs to run
+2025-06-30 13:11:59,839 - Next wakeup is due at 2025-06-30 13:14:59.836325+00:00 (in 179.997221 seconds)
+2025-06-30 13:11:59,839 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:14:59 UTC)" (scheduled at 2025-06-30 13:11:59.836325+00:00)
+2025-06-30 13:11:59,841 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:11:59,842 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a6de0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:11:59,842 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:14:59 UTC)" executed successfully
+2025-06-30 13:14:59,837 - Looking for jobs to run
+2025-06-30 13:14:59,838 - Next wakeup is due at 2025-06-30 13:17:59.836325+00:00 (in 179.998110 seconds)
+2025-06-30 13:14:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:17:59 UTC)" (scheduled at 2025-06-30 13:14:59.836325+00:00)
+2025-06-30 13:14:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:14:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a4500>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:14:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:17:59 UTC)" executed successfully
+2025-06-30 13:17:59,836 - Looking for jobs to run
+2025-06-30 13:17:59,837 - Next wakeup is due at 2025-06-30 13:20:59.836325+00:00 (in 179.998997 seconds)
+2025-06-30 13:17:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:20:59 UTC)" (scheduled at 2025-06-30 13:17:59.836325+00:00)
+2025-06-30 13:17:59,838 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:17:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346396570>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:17:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:20:59 UTC)" executed successfully
+2025-06-30 13:20:59,836 - Looking for jobs to run
+2025-06-30 13:20:59,837 - Next wakeup is due at 2025-06-30 13:23:59.836325+00:00 (in 179.998827 seconds)
+2025-06-30 13:20:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:23:59 UTC)" (scheduled at 2025-06-30 13:20:59.836325+00:00)
+2025-06-30 13:20:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:20:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3461f5430>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:20:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:23:59 UTC)" executed successfully
+2025-06-30 13:23:59,837 - Looking for jobs to run
+2025-06-30 13:23:59,838 - Next wakeup is due at 2025-06-30 13:26:59.836325+00:00 (in 179.998026 seconds)
+2025-06-30 13:23:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:26:59 UTC)" (scheduled at 2025-06-30 13:23:59.836325+00:00)
+2025-06-30 13:23:59,840 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:23:59,850 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463965a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:23:59,850 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:26:59 UTC)" executed successfully
+2025-06-30 13:26:59,836 - Looking for jobs to run
+2025-06-30 13:26:59,837 - Next wakeup is due at 2025-06-30 13:29:59.836325+00:00 (in 179.998474 seconds)
+2025-06-30 13:26:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:29:59 UTC)" (scheduled at 2025-06-30 13:26:59.836325+00:00)
+2025-06-30 13:26:59,840 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:26:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a4a10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:26:59,841 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:29:59 UTC)" executed successfully
+2025-06-30 13:27:05,792 - Looking for jobs to run
+2025-06-30 13:27:05,793 - Running job "InstagramDownloader.refresh_cookies (trigger: interval[1:00:00], next run at: 2025-06-30 13:27:05 UTC)" (scheduled at 2025-06-30 13:27:05.788923+00:00)
+2025-06-30 13:27:05,794 - Next wakeup is due at 2025-06-30 14:27:05.788923+00:00 (in 3599.994628 seconds)
+2025-06-30 13:27:05,796 - Selenium Manager binary found at: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager
+2025-06-30 13:27:05,796 - Executing process: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --debug --language-binding python --output json
+2025-06-30 13:27:16,514 - Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "linux", arch: "x86_64", lang: "python", selenium_version: "4.33" }
+2025-06-30 13:27:16,515 - chromedriver not found in PATH
+2025-06-30 13:27:16,516 - chrome not found in PATH
+2025-06-30 13:27:16,516 - chrome not found in the system
+2025-06-30 13:27:16,517 - Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
+2025-06-30 13:27:16,517 - Required browser: chrome 138.0.7204.49
+2025-06-30 13:27:16,517 - Acquiring lock: /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/sm.lock
+2025-06-30 13:27:16,518 - Downloading chrome 138.0.7204.49 from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.49/linux64/chrome-linux64.zip
+2025-06-30 13:27:16,518 - chrome 138.0.7204.49 is available at /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 13:27:16,518 - Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+2025-06-30 13:27:16,518 - Required driver: chromedriver 138.0.7204.49
+2025-06-30 13:27:16,518 - Acquiring lock: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/sm.lock
+2025-06-30 13:27:16,518 - Downloading chromedriver 138.0.7204.49 from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.49/linux64/chromedriver-linux64.zip
+2025-06-30 13:27:16,519 - Driver path: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver
+2025-06-30 13:27:16,519 - Browser path: /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 13:27:16,521 - Started executable: `/home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver` in a child process with pid: 20777 using 0 to output -3
+2025-06-30 13:27:16,593 - POST http://localhost:44007/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'excludeSwitches': ['enable-automation'], 'useAutomationExtension': False, 'prefs': {'profile.managed_default_content_settings.images': 2, 'profile.default_content_setting_values.notifications': 2}, 'extensions': [], 'binary': '/home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome', 'args': ['--disable-blink-features=AutomationControlled', 'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--window-size=1194,742', '--proxy-server=http://proxy1:port']}}}}
+2025-06-30 13:27:16,595 - Starting new HTTP connection (1): localhost:44007
+2025-06-30 13:27:16,623 - Job "InstagramDownloader.refresh_cookies (trigger: interval[1:00:00], next run at: 2025-06-30 14:27:05 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 445, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/zpotify1/mbot/plugins/Shazam.py", line 195, in refresh_cookies
+    driver = webdriver.Chrome(options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 69, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 361, in start_session
+    self.service.stop()
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/service.py", line 150, in stop
+    self.send_remote_shutdown_command()
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/service.py", line 130, in send_remote_shutdown_command
+    request.urlopen(f"{self.service_url}/shutdown")
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/urllib/request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+2025-06-30 13:29:59,837 - Looking for jobs to run
+2025-06-30 13:29:59,838 - Next wakeup is due at 2025-06-30 13:32:59.836325+00:00 (in 179.997823 seconds)
+2025-06-30 13:29:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:32:59 UTC)" (scheduled at 2025-06-30 13:29:59.836325+00:00)
+2025-06-30 13:29:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:29:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346e5b2f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:29:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:32:59 UTC)" executed successfully
+2025-06-30 13:32:59,836 - Looking for jobs to run
+2025-06-30 13:32:59,837 - Next wakeup is due at 2025-06-30 13:35:59.836325+00:00 (in 179.998902 seconds)
+2025-06-30 13:32:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:35:59 UTC)" (scheduled at 2025-06-30 13:32:59.836325+00:00)
+2025-06-30 13:32:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:32:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3461f6f30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:32:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:35:59 UTC)" executed successfully
+2025-06-30 13:35:59,836 - Looking for jobs to run
+2025-06-30 13:35:59,837 - Next wakeup is due at 2025-06-30 13:38:59.836325+00:00 (in 179.998822 seconds)
+2025-06-30 13:35:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:38:59 UTC)" (scheduled at 2025-06-30 13:35:59.836325+00:00)
+2025-06-30 13:35:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:35:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346204470>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:35:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:38:59 UTC)" executed successfully
+2025-06-30 13:38:59,837 - Looking for jobs to run
+2025-06-30 13:38:59,838 - Next wakeup is due at 2025-06-30 13:41:59.836325+00:00 (in 179.998160 seconds)
+2025-06-30 13:38:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:41:59 UTC)" (scheduled at 2025-06-30 13:38:59.836325+00:00)
+2025-06-30 13:38:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:38:59,842 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346205970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:38:59,842 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:41:59 UTC)" executed successfully
+2025-06-30 13:41:59,837 - Looking for jobs to run
+2025-06-30 13:41:59,837 - Next wakeup is due at 2025-06-30 13:44:59.836325+00:00 (in 179.998841 seconds)
+2025-06-30 13:41:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:44:59 UTC)" (scheduled at 2025-06-30 13:41:59.836325+00:00)
+2025-06-30 13:41:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:41:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3461f5070>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:41:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:44:59 UTC)" executed successfully
+2025-06-30 13:44:59,837 - Looking for jobs to run
+2025-06-30 13:44:59,837 - Next wakeup is due at 2025-06-30 13:47:59.836325+00:00 (in 179.998793 seconds)
+2025-06-30 13:44:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:47:59 UTC)" (scheduled at 2025-06-30 13:44:59.836325+00:00)
+2025-06-30 13:44:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:44:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a7fb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:44:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:47:59 UTC)" executed successfully
+2025-06-30 13:47:59,836 - Looking for jobs to run
+2025-06-30 13:47:59,837 - Next wakeup is due at 2025-06-30 13:50:59.836325+00:00 (in 179.998399 seconds)
+2025-06-30 13:47:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:50:59 UTC)" (scheduled at 2025-06-30 13:47:59.836325+00:00)
+2025-06-30 13:47:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:47:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34633aa20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:47:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:50:59 UTC)" executed successfully
+2025-06-30 13:50:59,836 - Looking for jobs to run
+2025-06-30 13:50:59,841 - Next wakeup is due at 2025-06-30 13:53:59.836325+00:00 (in 179.995320 seconds)
+2025-06-30 13:50:59,841 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:53:59 UTC)" (scheduled at 2025-06-30 13:50:59.836325+00:00)
+2025-06-30 13:50:59,843 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:50:59,845 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346205fa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:50:59,845 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:53:59 UTC)" executed successfully
+2025-06-30 13:53:59,837 - Looking for jobs to run
+2025-06-30 13:53:59,838 - Next wakeup is due at 2025-06-30 13:56:59.836325+00:00 (in 179.998036 seconds)
+2025-06-30 13:53:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:56:59 UTC)" (scheduled at 2025-06-30 13:53:59.836325+00:00)
+2025-06-30 13:53:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:53:59,841 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3462075c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:53:59,841 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:56:59 UTC)" executed successfully
+2025-06-30 13:56:59,837 - Looking for jobs to run
+2025-06-30 13:56:59,837 - Next wakeup is due at 2025-06-30 13:59:59.836325+00:00 (in 179.998871 seconds)
+2025-06-30 13:56:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:59:59 UTC)" (scheduled at 2025-06-30 13:56:59.836325+00:00)
+2025-06-30 13:56:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:56:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3461f7aa0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:56:59,841 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 13:59:59 UTC)" executed successfully
+2025-06-30 13:59:59,836 - Looking for jobs to run
+2025-06-30 13:59:59,837 - Next wakeup is due at 2025-06-30 14:02:59.836325+00:00 (in 179.999222 seconds)
+2025-06-30 13:59:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:02:59 UTC)" (scheduled at 2025-06-30 13:59:59.836325+00:00)
+2025-06-30 13:59:59,838 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 13:59:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3461f7a10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 13:59:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:02:59 UTC)" executed successfully
+2025-06-30 14:02:59,836 - Looking for jobs to run
+2025-06-30 14:02:59,837 - Next wakeup is due at 2025-06-30 14:05:59.836325+00:00 (in 179.998854 seconds)
+2025-06-30 14:02:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:05:59 UTC)" (scheduled at 2025-06-30 14:02:59.836325+00:00)
+2025-06-30 14:02:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:02:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3462078f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:02:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:05:59 UTC)" executed successfully
+2025-06-30 14:05:59,837 - Looking for jobs to run
+2025-06-30 14:05:59,837 - Next wakeup is due at 2025-06-30 14:08:59.836325+00:00 (in 179.998799 seconds)
+2025-06-30 14:05:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:08:59 UTC)" (scheduled at 2025-06-30 14:05:59.836325+00:00)
+2025-06-30 14:05:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:05:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34620cec0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:05:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:08:59 UTC)" executed successfully
+2025-06-30 14:08:59,836 - Looking for jobs to run
+2025-06-30 14:08:59,837 - Next wakeup is due at 2025-06-30 14:11:59.836325+00:00 (in 179.999122 seconds)
+2025-06-30 14:08:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:11:59 UTC)" (scheduled at 2025-06-30 14:08:59.836325+00:00)
+2025-06-30 14:08:59,838 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:08:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3461f4fe0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:08:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:11:59 UTC)" executed successfully
+2025-06-30 14:11:59,836 - Looking for jobs to run
+2025-06-30 14:11:59,837 - Next wakeup is due at 2025-06-30 14:14:59.836325+00:00 (in 179.998892 seconds)
+2025-06-30 14:11:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:14:59 UTC)" (scheduled at 2025-06-30 14:11:59.836325+00:00)
+2025-06-30 14:11:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:11:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3463a7a70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:11:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:14:59 UTC)" executed successfully
+2025-06-30 14:14:59,837 - Looking for jobs to run
+2025-06-30 14:14:59,839 - Next wakeup is due at 2025-06-30 14:17:59.836325+00:00 (in 179.997284 seconds)
+2025-06-30 14:14:59,840 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:17:59 UTC)" (scheduled at 2025-06-30 14:14:59.836325+00:00)
+2025-06-30 14:14:59,842 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:14:59,864 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34620d580>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:14:59,865 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:17:59 UTC)" executed successfully
+2025-06-30 14:17:59,850 - Looking for jobs to run
+2025-06-30 14:17:59,852 - Next wakeup is due at 2025-06-30 14:20:59.836325+00:00 (in 179.984072 seconds)
+2025-06-30 14:17:59,852 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:20:59 UTC)" (scheduled at 2025-06-30 14:17:59.836325+00:00)
+2025-06-30 14:17:59,854 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:17:59,854 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34620ebd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:17:59,854 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:20:59 UTC)" executed successfully
+2025-06-30 14:20:59,836 - Looking for jobs to run
+2025-06-30 14:20:59,837 - Next wakeup is due at 2025-06-30 14:23:59.836325+00:00 (in 179.998844 seconds)
+2025-06-30 14:20:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:23:59 UTC)" (scheduled at 2025-06-30 14:20:59.836325+00:00)
+2025-06-30 14:20:59,840 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:20:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3461f69f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:20:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:23:59 UTC)" executed successfully
+2025-06-30 14:23:59,837 - Looking for jobs to run
+2025-06-30 14:23:59,837 - Next wakeup is due at 2025-06-30 14:26:59.836325+00:00 (in 179.998816 seconds)
+2025-06-30 14:23:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:26:59 UTC)" (scheduled at 2025-06-30 14:23:59.836325+00:00)
+2025-06-30 14:23:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:23:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34620e150>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:23:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:26:59 UTC)" executed successfully
+2025-06-30 14:26:59,836 - Looking for jobs to run
+2025-06-30 14:26:59,837 - Next wakeup is due at 2025-06-30 14:29:59.836325+00:00 (in 179.998922 seconds)
+2025-06-30 14:26:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:29:59 UTC)" (scheduled at 2025-06-30 14:26:59.836325+00:00)
+2025-06-30 14:26:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:26:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34620ca70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:26:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:29:59 UTC)" executed successfully
+2025-06-30 14:27:05,790 - Looking for jobs to run
+2025-06-30 14:27:05,790 - Next wakeup is due at 2025-06-30 15:27:05.788923+00:00 (in 3599.998038 seconds)
+2025-06-30 14:27:05,791 - Running job "InstagramDownloader.refresh_cookies (trigger: interval[1:00:00], next run at: 2025-06-30 15:27:05 UTC)" (scheduled at 2025-06-30 14:27:05.788923+00:00)
+2025-06-30 14:27:05,793 - Selenium Manager binary found at: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager
+2025-06-30 14:27:05,793 - Executing process: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --debug --language-binding python --output json
+2025-06-30 14:27:05,841 - Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "linux", arch: "x86_64", lang: "python", selenium_version: "4.33" }
+2025-06-30 14:27:05,841 - chromedriver not found in PATH
+2025-06-30 14:27:05,841 - chrome not found in PATH
+2025-06-30 14:27:05,841 - chrome not found in the system
+2025-06-30 14:27:05,841 - Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
+2025-06-30 14:27:05,841 - Required browser: chrome 138.0.7204.49
+2025-06-30 14:27:05,842 - chrome 138.0.7204.49 already exists
+2025-06-30 14:27:05,842 - chrome 138.0.7204.49 is available at /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 14:27:05,842 - Required driver: chromedriver 138.0.7204.49
+2025-06-30 14:27:05,842 - chromedriver 138.0.7204.49 already in the cache
+2025-06-30 14:27:05,842 - Driver path: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver
+2025-06-30 14:27:05,842 - Browser path: /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 14:27:05,848 - Started executable: `/home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver` in a child process with pid: 27963 using 0 to output -3
+2025-06-30 14:27:05,920 - POST http://localhost:36057/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'excludeSwitches': ['enable-automation'], 'useAutomationExtension': False, 'prefs': {'profile.managed_default_content_settings.images': 2, 'profile.default_content_setting_values.notifications': 2}, 'extensions': [], 'binary': '/home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome', 'args': ['--disable-blink-features=AutomationControlled', 'user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--window-size=931,712', '--proxy-server=http://proxy2:port']}}}}
+2025-06-30 14:27:05,921 - Starting new HTTP connection (1): localhost:36057
+2025-06-30 14:27:05,927 - Job "InstagramDownloader.refresh_cookies (trigger: interval[1:00:00], next run at: 2025-06-30 15:27:05 UTC)" raised an exception
+Traceback (most recent call last):
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/apscheduler/executors/base.py", line 131, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/zpotify1/mbot/plugins/Shazam.py", line 195, in refresh_cookies
+    driver = webdriver.Chrome(options=chrome_options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 69, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 257, in __init__
+    self.start_session(capabilities)
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 445, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/remote_connection.py", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/remote/remote_connection.py", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-06-30 14:29:59,837 - Looking for jobs to run
+2025-06-30 14:29:59,837 - Next wakeup is due at 2025-06-30 14:32:59.836325+00:00 (in 179.998534 seconds)
+2025-06-30 14:29:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:32:59 UTC)" (scheduled at 2025-06-30 14:29:59.836325+00:00)
+2025-06-30 14:29:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:29:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3462909e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:29:59,841 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:32:59 UTC)" executed successfully
+2025-06-30 14:32:59,836 - Looking for jobs to run
+2025-06-30 14:32:59,837 - Next wakeup is due at 2025-06-30 14:35:59.836325+00:00 (in 179.999077 seconds)
+2025-06-30 14:32:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:35:59 UTC)" (scheduled at 2025-06-30 14:32:59.836325+00:00)
+2025-06-30 14:32:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:32:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34620c1a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:32:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:35:59 UTC)" executed successfully
+2025-06-30 14:33:17,829 - Selenium Manager binary found at: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager
+2025-06-30 14:33:17,830 - Executing process: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --debug --language-binding python --output json
+2025-06-30 14:33:17,929 - chromedriver not found in PATH
+2025-06-30 14:33:17,929 - chrome not found in PATH
+2025-06-30 14:33:17,929 - chrome not found in the system
+2025-06-30 14:33:17,929 - Required browser: chrome 138.0.7204.49
+2025-06-30 14:33:17,930 - chrome 138.0.7204.49 already exists
+2025-06-30 14:33:17,930 - chrome 138.0.7204.49 is available at /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 14:33:17,930 - Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+2025-06-30 14:33:17,930 - Required driver: chromedriver 138.0.7204.49
+2025-06-30 14:33:17,930 - chromedriver 138.0.7204.49 already in the cache
+2025-06-30 14:33:17,930 - Driver path: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver
+2025-06-30 14:33:17,930 - Browser path: /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 14:33:17,931 - Started executable: `/home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver` in a child process with pid: 28730 using 0 to output -3
+2025-06-30 14:33:17,943 - POST http://localhost:49185/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'excludeSwitches': ['enable-automation'], 'useAutomationExtension': False, 'prefs': {'profile.managed_default_content_settings.images': 2, 'profile.default_content_setting_values.notifications': 2}, 'extensions': [], 'binary': '/home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome', 'args': ['--disable-blink-features=AutomationControlled', 'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--window-size=824,653', '--proxy-server=http://proxy1:port']}}}}
+2025-06-30 14:33:17,943 - Starting new HTTP connection (1): localhost:49185
+2025-06-30 14:33:46,787 - Selenium Manager binary found at: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager
+2025-06-30 14:33:46,788 - Executing process: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --debug --language-binding python --output json
+2025-06-30 14:33:46,814 - chromedriver not found in PATH
+2025-06-30 14:33:46,815 - chrome not found in PATH
+2025-06-30 14:33:46,815 - chrome not found in the system
+2025-06-30 14:33:46,815 - Required browser: chrome 138.0.7204.49
+2025-06-30 14:33:46,815 - chrome 138.0.7204.49 already exists
+2025-06-30 14:33:46,815 - chrome 138.0.7204.49 is available at /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 14:33:46,815 - Required driver: chromedriver 138.0.7204.49
+2025-06-30 14:33:46,816 - chromedriver 138.0.7204.49 already in the cache
+2025-06-30 14:33:46,816 - Driver path: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver
+2025-06-30 14:33:46,816 - Browser path: /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome
+2025-06-30 14:33:46,817 - Started executable: `/home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.49/chromedriver` in a child process with pid: 28812 using 0 to output -3
+2025-06-30 14:33:46,829 - POST http://localhost:42267/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'excludeSwitches': ['enable-automation'], 'useAutomationExtension': False, 'prefs': {'profile.managed_default_content_settings.images': 2, 'profile.default_content_setting_values.notifications': 2}, 'extensions': [], 'binary': '/home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.49/chrome', 'args': ['--disable-blink-features=AutomationControlled', 'user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--window-size=1046,800', '--proxy-server=http://proxy2:port']}}}}
+2025-06-30 14:33:46,830 - Starting new HTTP connection (1): localhost:42267
+2025-06-30 14:35:59,836 - Looking for jobs to run
+2025-06-30 14:35:59,848 - Next wakeup is due at 2025-06-30 14:38:59.836325+00:00 (in 179.987475 seconds)
+2025-06-30 14:35:59,849 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:38:59 UTC)" (scheduled at 2025-06-30 14:35:59.836325+00:00)
+2025-06-30 14:35:59,856 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:35:59,857 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346292090>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:35:59,857 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:38:59 UTC)" executed successfully
+2025-06-30 14:38:59,837 - Looking for jobs to run
+2025-06-30 14:38:59,838 - Next wakeup is due at 2025-06-30 14:41:59.836325+00:00 (in 179.997950 seconds)
+2025-06-30 14:38:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:41:59 UTC)" (scheduled at 2025-06-30 14:38:59.836325+00:00)
+2025-06-30 14:38:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:38:59,849 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3462928d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:38:59,849 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:41:59 UTC)" executed successfully
+2025-06-30 14:41:59,837 - Looking for jobs to run
+2025-06-30 14:41:59,839 - Next wakeup is due at 2025-06-30 14:44:59.836325+00:00 (in 179.996538 seconds)
+2025-06-30 14:41:59,840 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:44:59 UTC)" (scheduled at 2025-06-30 14:41:59.836325+00:00)
+2025-06-30 14:41:59,841 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:41:59,842 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346293da0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:41:59,842 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:44:59 UTC)" executed successfully
+2025-06-30 14:44:59,836 - Looking for jobs to run
+2025-06-30 14:44:59,837 - Next wakeup is due at 2025-06-30 14:47:59.836325+00:00 (in 179.998688 seconds)
+2025-06-30 14:44:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:47:59 UTC)" (scheduled at 2025-06-30 14:44:59.836325+00:00)
+2025-06-30 14:44:59,840 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:44:59,841 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3462937a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:44:59,841 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:47:59 UTC)" executed successfully
+2025-06-30 14:47:59,837 - Looking for jobs to run
+2025-06-30 14:47:59,838 - Next wakeup is due at 2025-06-30 14:50:59.836325+00:00 (in 179.998022 seconds)
+2025-06-30 14:47:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:50:59 UTC)" (scheduled at 2025-06-30 14:47:59.836325+00:00)
+2025-06-30 14:47:59,840 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:47:59,841 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346297650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:47:59,841 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:50:59 UTC)" executed successfully
+2025-06-30 14:50:59,837 - Looking for jobs to run
+2025-06-30 14:50:59,837 - Next wakeup is due at 2025-06-30 14:53:59.836325+00:00 (in 179.998603 seconds)
+2025-06-30 14:50:59,838 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:53:59 UTC)" (scheduled at 2025-06-30 14:50:59.836325+00:00)
+2025-06-30 14:50:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:50:59,840 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc345148bc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:50:59,840 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:53:59 UTC)" executed successfully
+2025-06-30 14:53:59,836 - Looking for jobs to run
+2025-06-30 14:53:59,837 - Next wakeup is due at 2025-06-30 14:56:59.836325+00:00 (in 179.999047 seconds)
+2025-06-30 14:53:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:56:59 UTC)" (scheduled at 2025-06-30 14:53:59.836325+00:00)
+2025-06-30 14:53:59,838 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:53:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc34620e210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:53:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:56:59 UTC)" executed successfully
+2025-06-30 14:56:59,836 - Looking for jobs to run
+2025-06-30 14:56:59,837 - Next wakeup is due at 2025-06-30 14:59:59.836325+00:00 (in 179.999011 seconds)
+2025-06-30 14:56:59,837 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:59:59 UTC)" (scheduled at 2025-06-30 14:56:59.836325+00:00)
+2025-06-30 14:56:59,839 - Starting new HTTP connection (1): localhost:5000
+2025-06-30 14:56:59,839 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc346291970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-06-30 14:56:59,839 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-06-30 14:59:59 UTC)" executed successfully
+2025-06-30 14:57:03,743 - Stop signal received (SIGTERM). Exiting...
+2025-06-30 14:57:07,153 - Bot Stopped, Bye.
+2025-06-30 14:57:34,448 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-30 14:57:34,449 - Added job "ping_self" to job store "default"
+2025-06-30 14:57:34,449 - Scheduler started
+2025-06-30 14:57:34,450 - Looking for jobs to run
+2025-06-30 14:57:34,450 - Next wakeup is due at 2025-06-30 15:00:34.448319+00:00 (in 179.997716 seconds)
+2025-06-30 14:57:39,571 - Initializing shazamio_core module
+2025-06-30 14:57:39,572 - shazamio_core module initialized successfully
+2025-06-30 14:57:40,217 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-06-30 14:57:40,218 - /etc/localtime found
+2025-06-30 14:57:40,220 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-06-30 14:57:40,220 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-30 14:57:40,221 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-06-30 14:57:40,221 - Scheduler started
+2025-06-30 14:57:40,221 - Looking for jobs to run
+2025-06-30 14:57:40,222 - Next wakeup is due at 2025-06-30 15:57:40.220484+00:00 (in 3599.997695 seconds)
+2025-06-30 14:57:40,630 - Bot Started As zunknoebot
+
+2025-06-30 14:58:23,454 - Stop signal received (SIGTERM). Exiting...
+2025-06-30 14:58:23,646 - Bot Stopped, Bye.
+2025-06-30 15:04:12,409 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-30 15:04:12,414 - Added job "ping_self" to job store "default"
+2025-06-30 15:04:12,414 - Scheduler started
+2025-06-30 15:04:12,415 - Looking for jobs to run
+2025-06-30 15:04:12,416 - Next wakeup is due at 2025-06-30 15:07:12.409023+00:00 (in 179.992800 seconds)
+2025-06-30 15:04:14,296 - Initializing shazamio_core module
+2025-06-30 15:04:14,297 - shazamio_core module initialized successfully
+2025-06-30 15:04:14,878 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-06-30 15:04:14,878 - /etc/localtime found
+2025-06-30 15:04:14,879 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-06-30 15:04:14,880 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-06-30 15:04:14,880 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-06-30 15:04:14,880 - Scheduler started
+2025-06-30 15:04:14,881 - Looking for jobs to run
+2025-06-30 15:04:14,882 - Next wakeup is due at 2025-06-30 16:04:14.880209+00:00 (in 3599.997803 seconds)
+2025-06-30 15:04:15,283 - Bot Started As zunknoebot
+
+2025-06-30 15:05:46,089 - Stop signal received (SIGTERM). Exiting...
+2025-06-30 15:05:46,215 - Bot Stopped, Bye.
+2025-07-01 13:59:26,111 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-01 13:59:26,111 - Added job "ping_self" to job store "default"
+2025-07-01 13:59:26,111 - Scheduler started
+2025-07-01 13:59:26,112 - Looking for jobs to run
+2025-07-01 13:59:26,112 - Next wakeup is due at 2025-07-01 14:02:26.110835+00:00 (in 179.997875 seconds)
+2025-07-01 13:59:27,795 - Initializing shazamio_core module
+2025-07-01 13:59:27,796 - shazamio_core module initialized successfully
+2025-07-01 13:59:28,342 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-07-01 13:59:28,343 - /etc/localtime found
+2025-07-01 13:59:28,345 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-07-01 13:59:28,346 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-01 13:59:28,346 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-07-01 13:59:28,346 - Scheduler started
+2025-07-01 13:59:28,346 - Looking for jobs to run
+2025-07-01 13:59:28,348 - Next wakeup is due at 2025-07-01 14:59:28.345809+00:00 (in 3599.997409 seconds)
+2025-07-01 13:59:28,690 - Bot Started As zunknoebot
+
+2025-07-01 14:02:26,111 - Looking for jobs to run
+2025-07-01 14:02:26,112 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-01 14:02:26 UTC)" (scheduled at 2025-07-01 14:02:26.110835+00:00)
+2025-07-01 14:02:26,112 - Next wakeup is due at 2025-07-01 14:05:26.110835+00:00 (in 179.998500 seconds)
+2025-07-01 14:02:26,114 - Starting new HTTP connection (1): localhost:5000
+2025-07-01 14:02:26,115 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f23a6715d60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-01 14:02:26,115 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-01 14:05:26 UTC)" executed successfully
+2025-07-01 14:03:25,272 - Stop signal received (SIGTERM). Exiting...
+2025-07-01 14:03:27,137 - Bot Stopped, Bye.
+2025-07-01 14:04:54,083 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-01 14:04:54,085 - Added job "ping_self" to job store "default"
+2025-07-01 14:04:54,085 - Scheduler started
+2025-07-01 14:04:54,086 - Looking for jobs to run
+2025-07-01 14:04:54,087 - Next wakeup is due at 2025-07-01 14:07:54.083730+00:00 (in 179.996287 seconds)
+2025-07-01 14:04:55,518 - Initializing shazamio_core module
+2025-07-01 14:04:55,518 - shazamio_core module initialized successfully
+2025-07-01 14:04:55,915 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-07-01 14:04:55,915 - /etc/localtime found
+2025-07-01 14:04:55,916 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-07-01 14:04:55,917 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-01 14:04:55,917 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-07-01 14:04:55,917 - Scheduler started
+2025-07-01 14:04:55,918 - Looking for jobs to run
+2025-07-01 14:04:55,919 - Next wakeup is due at 2025-07-01 15:04:55.917071+00:00 (in 3599.997878 seconds)
+2025-07-01 14:04:56,197 - Bot Started As zunknoebot
+
+2025-07-01 14:06:09,076 - Stop signal received (SIGTERM). Exiting...
+2025-07-01 14:06:09,827 - Bot Stopped, Bye.
+2025-07-02 08:26:43,171 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 08:26:43,172 - Added job "ping_self" to job store "default"
+2025-07-02 08:26:43,172 - Scheduler started
+2025-07-02 08:26:43,172 - Looking for jobs to run
+2025-07-02 08:26:43,173 -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:10000
+ * Running on http://10.0.5.2:10000 (Press CTRL+C to quit)
+2025-07-02 08:26:43,173 - Next wakeup is due at 2025-07-02 08:29:43.171151+00:00 (in 179.997975 seconds)
+2025-07-02 08:26:47,169 - Initializing shazamio_core module
+2025-07-02 08:26:47,170 - shazamio_core module initialized successfully
+2025-07-02 08:26:47,719 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-07-02 08:26:47,719 - /etc/localtime found
+2025-07-02 08:26:47,721 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-07-02 08:26:47,721 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 08:26:47,721 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-07-02 08:26:47,721 - Scheduler started
+2025-07-02 08:26:47,722 - Looking for jobs to run
+2025-07-02 08:26:47,723 - Next wakeup is due at 2025-07-02 09:26:47.721386+00:00 (in 3599.998217 seconds)
+2025-07-02 08:26:48,127 - Bot Started As zunknoebot
+
+2025-07-02 08:27:41,308 - Stop signal received (SIGTERM). Exiting...
+2025-07-02 08:27:41,419 - Bot Stopped, Bye.
+2025-07-02 08:29:43,171 - Looking for jobs to run
+2025-07-02 08:29:43,174 - Error submitting job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 08:29:43 UTC)" to executor "default"
+Traceback (most recent call last):
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/apscheduler/schedulers/base.py", line 1195, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/apscheduler/executors/base.py", line 74, in submit_job
+    self._do_submit_job(job, run_times)
+  File "/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/apscheduler/executors/pool.py", line 27, in _do_submit_job
+    f = self._pool.submit(
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/gitpod/.pyenv/versions/3.12.11/lib/python3.12/concurrent/futures/thread.py", line 173, in submit
+    raise RuntimeError('cannot schedule new futures after '
+RuntimeError: cannot schedule new futures after interpreter shutdown
+2025-07-02 08:29:43,188 - Next wakeup is due at 2025-07-02 08:32:43.171151+00:00 (in 179.982303 seconds)
+2025-07-02 09:34:38,797 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 09:34:38,798 - Added job "ping_self" to job store "default"
+2025-07-02 09:34:38,799 - Scheduler started
+2025-07-02 09:34:38,800 - Looking for jobs to run
+2025-07-02 09:34:38,801 - Next wakeup is due at 2025-07-02 09:37:38.797754+00:00 (in 179.996761 seconds)
+2025-07-02 09:34:43,016 - Initializing shazamio_core module
+2025-07-02 09:34:43,016 - shazamio_core module initialized successfully
+2025-07-02 09:34:43,514 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-07-02 09:34:43,515 - /etc/localtime found
+2025-07-02 09:34:43,516 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-07-02 09:34:43,516 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 09:34:43,516 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-07-02 09:34:43,517 - Scheduler started
+2025-07-02 09:34:43,517 - Looking for jobs to run
+2025-07-02 09:34:43,518 - Next wakeup is due at 2025-07-02 10:34:43.516432+00:00 (in 3599.997880 seconds)
+2025-07-02 09:34:43,849 - Bot Started As zunknoebot
+
+2025-07-02 09:37:38,798 - Looking for jobs to run
+2025-07-02 09:37:38,798 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:37:38 UTC)" (scheduled at 2025-07-02 09:37:38.797754+00:00)
+2025-07-02 09:37:38,799 - Next wakeup is due at 2025-07-02 09:40:38.797754+00:00 (in 179.998707 seconds)
+2025-07-02 09:37:38,800 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 09:37:38,801 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8fc01157f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 09:37:38,801 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:40:38 UTC)" executed successfully
+2025-07-02 09:40:38,799 - Looking for jobs to run
+2025-07-02 09:40:38,800 - Next wakeup is due at 2025-07-02 09:43:38.797754+00:00 (in 179.997419 seconds)
+2025-07-02 09:40:38,800 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:43:38 UTC)" (scheduled at 2025-07-02 09:40:38.797754+00:00)
+2025-07-02 09:40:38,802 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 09:40:38,802 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8f9394acc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 09:40:38,802 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:43:38 UTC)" executed successfully
+2025-07-02 09:43:32,982 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 09:43:32,983 - Added job "ping_self" to job store "default"
+2025-07-02 09:43:32,983 - Scheduler started
+2025-07-02 09:43:32,984 - Looking for jobs to run
+2025-07-02 09:43:32,985 - Next wakeup is due at 2025-07-02 09:46:32.982213+00:00 (in 179.997218 seconds)
+2025-07-02 09:43:34,425 - Initializing shazamio_core module
+2025-07-02 09:43:34,425 - shazamio_core module initialized successfully
+2025-07-02 09:43:34,896 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-07-02 09:43:34,896 - /etc/localtime found
+2025-07-02 09:43:34,897 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-07-02 09:43:34,898 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 09:43:34,898 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-07-02 09:43:34,898 - Scheduler started
+2025-07-02 09:43:34,898 - Looking for jobs to run
+2025-07-02 09:43:34,899 - Next wakeup is due at 2025-07-02 10:43:34.897955+00:00 (in 3599.997983 seconds)
+2025-07-02 09:43:35,677 - Bot Started As zunknoebot
+
+2025-07-02 09:46:32,982 - Looking for jobs to run
+2025-07-02 09:46:32,983 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:46:32 UTC)" (scheduled at 2025-07-02 09:46:32.982213+00:00)
+2025-07-02 09:46:32,983 - Next wakeup is due at 2025-07-02 09:49:32.982213+00:00 (in 179.998768 seconds)
+2025-07-02 09:46:32,985 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 09:46:32,986 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1eb64038f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 09:46:32,986 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:49:32 UTC)" executed successfully
+2025-07-02 09:49:32,984 - Looking for jobs to run
+2025-07-02 09:49:32,984 - Next wakeup is due at 2025-07-02 09:52:32.982213+00:00 (in 179.997526 seconds)
+2025-07-02 09:49:32,984 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:52:32 UTC)" (scheduled at 2025-07-02 09:49:32.982213+00:00)
+2025-07-02 09:49:32,986 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 09:49:32,987 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1eb635da30>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 09:49:32,987 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:52:32 UTC)" executed successfully
+2025-07-02 09:52:32,982 - Looking for jobs to run
+2025-07-02 09:52:32,982 - Next wakeup is due at 2025-07-02 09:55:32.982213+00:00 (in 179.999252 seconds)
+2025-07-02 09:52:32,983 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:55:32 UTC)" (scheduled at 2025-07-02 09:52:32.982213+00:00)
+2025-07-02 09:52:32,984 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 09:52:32,984 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1eb6381250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 09:52:32,985 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:55:32 UTC)" executed successfully
+2025-07-02 09:55:32,982 - Looking for jobs to run
+2025-07-02 09:55:32,982 - Next wakeup is due at 2025-07-02 09:58:32.982213+00:00 (in 179.999282 seconds)
+2025-07-02 09:55:32,983 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:58:32 UTC)" (scheduled at 2025-07-02 09:55:32.982213+00:00)
+2025-07-02 09:55:32,984 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 09:55:32,984 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1eb6383bc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 09:55:32,984 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 09:58:32 UTC)" executed successfully
+2025-07-02 09:58:00,338 - Selenium Manager binary found at: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager
+2025-07-02 09:58:00,338 - Executing process: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --debug --language-binding python --output json
+2025-07-02 09:58:09,633 - Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "linux", arch: "x86_64", lang: "python", selenium_version: "4.33" }
+2025-07-02 09:58:09,633 - chromedriver not found in PATH
+2025-07-02 09:58:09,634 - chrome not found in PATH
+2025-07-02 09:58:09,634 - chrome not found in the system
+2025-07-02 09:58:09,634 - Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
+2025-07-02 09:58:09,634 - Required browser: chrome 138.0.7204.92
+2025-07-02 09:58:09,634 - Acquiring lock: /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.92/sm.lock
+2025-07-02 09:58:09,634 - Downloading chrome 138.0.7204.92 from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/linux64/chrome-linux64.zip
+2025-07-02 09:58:09,634 - chrome 138.0.7204.92 is available at /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.92/chrome
+2025-07-02 09:58:09,634 - Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+2025-07-02 09:58:09,634 - Required driver: chromedriver 138.0.7204.92
+2025-07-02 09:58:09,634 - Acquiring lock: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.92/sm.lock
+2025-07-02 09:58:09,634 - Downloading chromedriver 138.0.7204.92 from https://storage.googleapis.com/chrome-for-testing-public/138.0.7204.92/linux64/chromedriver-linux64.zip
+2025-07-02 09:58:09,634 - Driver path: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.92/chromedriver
+2025-07-02 09:58:09,634 - Browser path: /home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.92/chrome
+2025-07-02 09:58:09,635 - Started executable: `/home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.92/chromedriver` in a child process with pid: 29811 using 0 to output -3
+2025-07-02 09:58:09,707 - POST http://localhost:34161/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'excludeSwitches': ['enable-automation'], 'useAutomationExtension': False, 'prefs': {'profile.managed_default_content_settings.images': 2, 'profile.default_content_setting_values.notifications': 2}, 'extensions': [], 'binary': '/home/gitpod/.cache/selenium/chrome/linux64/138.0.7204.92/chrome', 'args': ['--disable-blink-features=AutomationControlled', 'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--window-size=1103,646', '--proxy-server=http://proxy1:port']}}}}
+2025-07-02 09:58:09,707 - Starting new HTTP connection (1): localhost:34161
+2025-07-02 09:58:32,982 - Looking for jobs to run
+2025-07-02 09:58:32,983 - Next wakeup is due at 2025-07-02 10:01:32.982213+00:00 (in 179.999124 seconds)
+2025-07-02 09:58:32,983 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:01:32 UTC)" (scheduled at 2025-07-02 09:58:32.982213+00:00)
+2025-07-02 09:58:32,985 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 09:58:32,985 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1eb6383350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 09:58:32,985 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:01:32 UTC)" executed successfully
+2025-07-02 10:01:32,982 - Looking for jobs to run
+2025-07-02 10:01:32,982 - Next wakeup is due at 2025-07-02 10:04:32.982213+00:00 (in 179.999241 seconds)
+2025-07-02 10:01:32,983 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:04:32 UTC)" (scheduled at 2025-07-02 10:01:32.982213+00:00)
+2025-07-02 10:01:32,984 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:01:32,985 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1eb6e99f40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:01:32,985 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:04:32 UTC)" executed successfully
+2025-07-02 10:04:32,982 - Looking for jobs to run
+2025-07-02 10:04:32,983 - Next wakeup is due at 2025-07-02 10:07:32.982213+00:00 (in 179.999215 seconds)
+2025-07-02 10:04:32,983 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:07:32 UTC)" (scheduled at 2025-07-02 10:04:32.982213+00:00)
+2025-07-02 10:04:32,984 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:04:32,985 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1eb633bd40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:04:32,985 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:07:32 UTC)" executed successfully
+2025-07-02 10:04:54,929 - Stop signal received (SIGTERM). Exiting...
+2025-07-02 10:04:55,248 - Bot Stopped, Bye.
+2025-07-02 10:04:58,206 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 10:04:58,207 - Added job "ping_self" to job store "default"
+2025-07-02 10:04:58,207 - Scheduler started
+2025-07-02 10:04:58,208 - Looking for jobs to run
+2025-07-02 10:04:58,208 - Next wakeup is due at 2025-07-02 10:07:58.206576+00:00 (in 179.998112 seconds)
+2025-07-02 10:04:59,457 - Initializing shazamio_core module
+2025-07-02 10:04:59,457 - shazamio_core module initialized successfully
+2025-07-02 10:04:59,866 - /etc/timezone found, contents:
+ Etc/UTC
+
+2025-07-02 10:04:59,867 - /etc/localtime found
+2025-07-02 10:04:59,868 - 2 found:
+ {'/etc/timezone': 'Etc/UTC', '/etc/localtime is a symlink to': 'Etc/UTC'}
+2025-07-02 10:04:59,868 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-02 10:04:59,869 - Added job "InstagramDownloader.refresh_cookies" to job store "default"
+2025-07-02 10:04:59,869 - Scheduler started
+2025-07-02 10:04:59,869 - Looking for jobs to run
+2025-07-02 10:04:59,870 - Next wakeup is due at 2025-07-02 11:04:59.868747+00:00 (in 3599.998064 seconds)
+2025-07-02 10:05:00,101 - Bot Started As zunknoebot
+
+2025-07-02 10:05:19,080 - Selenium Manager binary found at: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager
+2025-07-02 10:05:19,083 - Executing process: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --debug --language-binding python --output json
+2025-07-02 10:05:19,170 - chromedriver not found in PATH
+2025-07-02 10:05:19,170 - chrome detected at /usr/bin/google-chrome
+2025-07-02 10:05:19,170 - Running command: /usr/bin/google-chrome --version
+2025-07-02 10:05:19,170 - Output: "Google Chrome 138.0.7204.92 "
+2025-07-02 10:05:19,170 - Detected browser: chrome 138.0.7204.92
+2025-07-02 10:05:19,170 - Required driver: chromedriver 138.0.7204.92
+2025-07-02 10:05:19,171 - chromedriver 138.0.7204.92 already in the cache
+2025-07-02 10:05:19,171 - Driver path: /home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.92/chromedriver
+2025-07-02 10:05:19,171 - Browser path: /usr/bin/google-chrome
+2025-07-02 10:05:19,172 - Started executable: `/home/gitpod/.cache/selenium/chromedriver/linux64/138.0.7204.92/chromedriver` in a child process with pid: 34880 using 0 to output -3
+2025-07-02 10:05:19,244 - POST http://localhost:50841/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'excludeSwitches': ['enable-automation'], 'useAutomationExtension': False, 'prefs': {'profile.managed_default_content_settings.images': 2, 'profile.default_content_setting_values.notifications': 2}, 'extensions': [], 'binary': '/usr/bin/google-chrome', 'args': ['--disable-blink-features=AutomationControlled', 'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', '--window-size=947,693', '--proxy-server=http://proxy1:port']}}}}
+2025-07-02 10:05:19,244 - Starting new HTTP connection (1): localhost:50841
+2025-07-02 10:07:58,206 - Looking for jobs to run
+2025-07-02 10:07:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:07:58 UTC)" (scheduled at 2025-07-02 10:07:58.206576+00:00)
+2025-07-02 10:07:58,208 - Next wakeup is due at 2025-07-02 10:10:58.206576+00:00 (in 179.998309 seconds)
+2025-07-02 10:07:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:07:58,210 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d79c22a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:07:58,210 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:10:58 UTC)" executed successfully
+2025-07-02 10:10:58,208 - Looking for jobs to run
+2025-07-02 10:10:58,209 - Next wakeup is due at 2025-07-02 10:13:58.206576+00:00 (in 179.997400 seconds)
+2025-07-02 10:10:58,209 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:13:58 UTC)" (scheduled at 2025-07-02 10:10:58.206576+00:00)
+2025-07-02 10:10:58,210 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:10:58,211 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d777a960>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:10:58,212 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:13:58 UTC)" executed successfully
+2025-07-02 10:13:58,207 - Looking for jobs to run
+2025-07-02 10:13:58,207 - Next wakeup is due at 2025-07-02 10:16:58.206576+00:00 (in 179.998977 seconds)
+2025-07-02 10:13:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:16:58 UTC)" (scheduled at 2025-07-02 10:13:58.206576+00:00)
+2025-07-02 10:13:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:13:58,209 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d78e8a70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:13:58,210 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:16:58 UTC)" executed successfully
+2025-07-02 10:16:58,207 - Looking for jobs to run
+2025-07-02 10:16:58,207 - Next wakeup is due at 2025-07-02 10:19:58.206576+00:00 (in 179.998983 seconds)
+2025-07-02 10:16:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:19:58 UTC)" (scheduled at 2025-07-02 10:16:58.206576+00:00)
+2025-07-02 10:16:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:16:58,209 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d77cc260>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:16:58,209 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:19:58 UTC)" executed successfully
+2025-07-02 10:19:58,207 - Looking for jobs to run
+2025-07-02 10:19:58,207 - Next wakeup is due at 2025-07-02 10:22:58.206576+00:00 (in 179.999126 seconds)
+2025-07-02 10:19:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:22:58 UTC)" (scheduled at 2025-07-02 10:19:58.206576+00:00)
+2025-07-02 10:19:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:19:58,210 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d77cd6a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:19:58,210 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:22:58 UTC)" executed successfully
+2025-07-02 10:22:58,207 - Looking for jobs to run
+2025-07-02 10:22:58,207 - Next wakeup is due at 2025-07-02 10:25:58.206576+00:00 (in 179.999059 seconds)
+2025-07-02 10:22:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:25:58 UTC)" (scheduled at 2025-07-02 10:22:58.206576+00:00)
+2025-07-02 10:22:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:22:58,209 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d777bf80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:22:58,209 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:25:58 UTC)" executed successfully
+2025-07-02 10:25:58,207 - Looking for jobs to run
+2025-07-02 10:25:58,207 - Next wakeup is due at 2025-07-02 10:28:58.206576+00:00 (in 179.999163 seconds)
+2025-07-02 10:25:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:28:58 UTC)" (scheduled at 2025-07-02 10:25:58.206576+00:00)
+2025-07-02 10:25:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:25:58,209 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d77ce780>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:25:58,210 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:28:58 UTC)" executed successfully
+2025-07-02 10:28:58,206 - Looking for jobs to run
+2025-07-02 10:28:58,207 - Next wakeup is due at 2025-07-02 10:31:58.206576+00:00 (in 179.999302 seconds)
+2025-07-02 10:28:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:31:58 UTC)" (scheduled at 2025-07-02 10:28:58.206576+00:00)
+2025-07-02 10:28:58,208 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:28:58,209 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d77cee40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:28:58,209 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:31:58 UTC)" executed successfully
+2025-07-02 10:31:58,207 - Looking for jobs to run
+2025-07-02 10:31:58,207 - Next wakeup is due at 2025-07-02 10:34:58.206576+00:00 (in 179.998616 seconds)
+2025-07-02 10:31:58,208 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:34:58 UTC)" (scheduled at 2025-07-02 10:31:58.206576+00:00)
+2025-07-02 10:31:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:31:58,210 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d77dc380>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:31:58,210 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:34:58 UTC)" executed successfully
+2025-07-02 10:34:58,206 - Looking for jobs to run
+2025-07-02 10:34:58,207 - Next wakeup is due at 2025-07-02 10:37:58.206576+00:00 (in 179.999359 seconds)
+2025-07-02 10:34:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:37:58 UTC)" (scheduled at 2025-07-02 10:34:58.206576+00:00)
+2025-07-02 10:34:58,208 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:34:58,209 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d7755100>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:34:58,209 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:37:58 UTC)" executed successfully
+2025-07-02 10:37:58,207 - Looking for jobs to run
+2025-07-02 10:37:58,207 - Next wakeup is due at 2025-07-02 10:40:58.206576+00:00 (in 179.998941 seconds)
+2025-07-02 10:37:58,207 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:40:58 UTC)" (scheduled at 2025-07-02 10:37:58.206576+00:00)
+2025-07-02 10:37:58,209 - Starting new HTTP connection (1): localhost:5000
+2025-07-02 10:37:58,210 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc7d77cc110>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-02 10:37:58,210 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-02 10:40:58 UTC)" executed successfully
+2025-07-02 10:38:11,655 - Stop signal received (SIGTERM). Exiting...
+2025-07-02 10:38:11,758 - Stop signal received (SIGTERM). Exiting...
+2025-07-02 10:38:15,901 - Bot Stopped, Bye.
+2025-07-10 12:58:40,552 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 12:58:40,553 -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.196.124:10000 (Press CTRL+C to quit)
+2025-07-10 12:58:40,554 - Added job "ping_self" to job store "default"
+2025-07-10 12:58:40,554 - Scheduler started
+2025-07-10 12:58:40,555 - Looking for jobs to run
+2025-07-10 12:58:40,555 - Next wakeup is due at 2025-07-10 09:31:40.552786+00:00 (in 179.997383 seconds)
+2025-07-10 12:58:51,009 - Unable to connect due to network issues: Connection timed out
+2025-07-10 12:59:02,022 - Unable to connect due to network issues: Connection timed out
+2025-07-10 12:59:13,034 - Unable to connect due to network issues: Connection timed out
+2025-07-10 12:59:14,035 - Connection failed! Trying again...
+2025-07-10 12:59:25,047 - Unable to connect due to network issues: Connection timed out
+2025-07-10 12:59:36,054 - Unable to connect due to network issues: Connection timed out
+2025-07-10 12:59:47,078 - Unable to connect due to network issues: Connection timed out
+2025-07-10 12:59:48,080 - Connection failed! Trying again...
+2025-07-10 12:59:59,092 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:00:10,102 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:00:21,112 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:00:22,114 - Connection failed! Trying again...
+2025-07-10 13:00:33,122 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:00:44,133 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:00:55,145 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:00:56,147 - Connection failed! Trying again...
+2025-07-10 13:01:07,159 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:01:18,162 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:01:29,173 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:01:30,175 - Connection failed! Trying again...
+2025-07-10 13:01:40,553 - Looking for jobs to run
+2025-07-10 13:01:40,553 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:31:40 UTC)" (scheduled at 2025-07-10 09:31:40.552786+00:00)
+2025-07-10 13:01:40,557 - Starting new HTTP connection (1): localhost:5000
+2025-07-10 13:01:40,557 - Next wakeup is due at 2025-07-10 09:34:40.552786+00:00 (in 179.995135 seconds)
+2025-07-10 13:01:40,559 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f2193890>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-10 13:01:40,559 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:34:40 UTC)" executed successfully
+2025-07-10 13:02:36,980 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:02:47,991 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:02:59,004 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:03:00,005 - Connection failed! Trying again...
+2025-07-10 13:03:10,012 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:03:21,022 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:03:32,034 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:03:33,036 - Connection failed! Trying again...
+2025-07-10 13:03:43,043 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:03:54,045 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:04:05,052 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:04:06,053 - Connection failed! Trying again...
+2025-07-10 13:04:16,064 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:04:27,076 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:04:38,089 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:04:39,090 - Connection failed! Trying again...
+2025-07-10 13:04:40,553 - Looking for jobs to run
+2025-07-10 13:04:40,554 - Next wakeup is due at 2025-07-10 09:37:40.552786+00:00 (in 179.997972 seconds)
+2025-07-10 13:04:40,555 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:37:40 UTC)" (scheduled at 2025-07-10 09:34:40.552786+00:00)
+2025-07-10 13:04:40,558 - Starting new HTTP connection (1): localhost:5000
+2025-07-10 13:04:40,560 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f0070410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-10 13:04:40,561 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:37:40 UTC)" executed successfully
+2025-07-10 13:04:49,101 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:05:00,113 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:05:11,126 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:05:12,126 - Connection failed! Trying again...
+2025-07-10 13:05:22,137 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:05:33,149 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:05:44,152 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:05:45,153 - Connection failed! Trying again...
+2025-07-10 13:05:55,164 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:06:06,176 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:06:17,186 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:06:18,188 - Connection failed! Trying again...
+2025-07-10 13:06:28,200 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:06:39,212 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:06:50,224 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:06:51,226 - Connection failed! Trying again...
+2025-07-10 13:07:01,237 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:07:12,250 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:07:23,262 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:07:24,263 - Connection failed! Trying again...
+2025-07-10 13:07:34,274 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:07:40,554 - Looking for jobs to run
+2025-07-10 13:07:40,555 - Next wakeup is due at 2025-07-10 09:40:40.552786+00:00 (in 179.997397 seconds)
+2025-07-10 13:07:40,555 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:40:40 UTC)" (scheduled at 2025-07-10 09:37:40.552786+00:00)
+2025-07-10 13:07:40,559 - Starting new HTTP connection (1): localhost:5000
+2025-07-10 13:07:40,561 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc2f0070f20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-10 13:07:40,562 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:40:40 UTC)" executed successfully
+2025-07-10 13:07:45,287 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:10:40,554 - Looking for jobs to run
+2025-07-10 13:10:40,554 - Error submitting job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:40:40 UTC)" to executor "default"
+Traceback (most recent call last):
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/schedulers/base.py", line 1195, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/base.py", line 74, in submit_job
+    self._do_submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/pool.py", line 27, in _do_submit_job
+    f = self._pool.submit(
+        ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 170, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+2025-07-10 13:10:40,561 - Next wakeup is due at 2025-07-10 09:43:40.552786+00:00 (in 179.991625 seconds)
+2025-07-10 13:13:40,553 - Looking for jobs to run
+2025-07-10 13:13:40,553 - Error submitting job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:43:40 UTC)" to executor "default"
+Traceback (most recent call last):
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/schedulers/base.py", line 1195, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/base.py", line 74, in submit_job
+    self._do_submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/pool.py", line 27, in _do_submit_job
+    f = self._pool.submit(
+        ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 170, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+2025-07-10 13:13:40,555 - Next wakeup is due at 2025-07-10 09:46:40.552786+00:00 (in 179.997318 seconds)
+2025-07-10 13:16:40,553 - Looking for jobs to run
+2025-07-10 13:16:40,554 - Error submitting job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:46:40 UTC)" to executor "default"
+Traceback (most recent call last):
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/schedulers/base.py", line 1195, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/base.py", line 74, in submit_job
+    self._do_submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/pool.py", line 27, in _do_submit_job
+    f = self._pool.submit(
+        ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 170, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+2025-07-10 13:16:40,556 - Next wakeup is due at 2025-07-10 09:49:40.552786+00:00 (in 179.996708 seconds)
+2025-07-10 13:19:40,553 - Looking for jobs to run
+2025-07-10 13:19:40,554 - Error submitting job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:49:40 UTC)" to executor "default"
+Traceback (most recent call last):
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/schedulers/base.py", line 1195, in _process_jobs
+    executor.submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/base.py", line 74, in submit_job
+    self._do_submit_job(job, run_times)
+  File "/home/zaco/.local/lib/python3.12/site-packages/apscheduler/executors/pool.py", line 27, in _do_submit_job
+    f = self._pool.submit(
+        ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 170, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+2025-07-10 13:19:40,555 - Next wakeup is due at 2025-07-10 09:52:40.552786+00:00 (in 179.997191 seconds)
+2025-07-10 13:22:52,793 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 13:22:52,793 - Added job "ping_self" to job store "default"
+2025-07-10 13:22:52,794 - Scheduler started
+2025-07-10 13:22:52,794 - Looking for jobs to run
+2025-07-10 13:22:52,797 - Next wakeup is due at 2025-07-10 09:55:52.793090+00:00 (in 179.995939 seconds)
+2025-07-10 13:23:03,092 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:23:14,102 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:23:25,115 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:23:26,117 - Connection failed! Trying again...
+2025-07-10 13:23:37,129 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:23:48,141 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:23:59,153 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:24:00,155 - Connection failed! Trying again...
+2025-07-10 13:24:11,167 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:24:22,180 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:24:33,192 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:24:34,194 - Connection failed! Trying again...
+2025-07-10 13:24:45,202 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:24:56,214 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:25:07,226 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:25:08,228 - Connection failed! Trying again...
+2025-07-10 13:25:19,240 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:25:30,252 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:25:41,264 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:25:42,266 - Connection failed! Trying again...
+2025-07-10 13:25:52,793 - Looking for jobs to run
+2025-07-10 13:25:52,794 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:55:52 UTC)" (scheduled at 2025-07-10 09:55:52.793090+00:00)
+2025-07-10 13:25:52,794 - Next wakeup is due at 2025-07-10 09:58:52.793090+00:00 (in 179.998508 seconds)
+2025-07-10 13:25:52,795 - Starting new HTTP connection (1): localhost:5000
+2025-07-10 13:25:52,797 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc685ed77a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-10 13:25:52,798 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 09:58:52 UTC)" executed successfully
+2025-07-10 13:25:53,278 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:26:04,290 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:26:15,302 - Unable to connect due to network issues: Connection timed out
+2025-07-10 13:26:16,303 - Connection failed! Trying again...
+2025-07-10 17:39:48,585 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 17:39:48,586 - Added job "ping_self" to job store "default"
+2025-07-10 17:39:48,586 - Scheduler started
+2025-07-10 17:39:48,587 - Looking for jobs to run
+2025-07-10 17:39:48,587 - Next wakeup is due at 2025-07-10 14:12:48.585584+00:00 (in 179.998306 seconds)
+2025-07-10 17:39:58,894 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:40:09,907 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:40:20,921 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:40:21,923 - Connection failed! Trying again...
+2025-07-10 17:40:32,935 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:40:43,939 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:40:54,952 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:40:55,955 - Connection failed! Trying again...
+2025-07-10 17:41:06,968 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:41:17,979 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:41:28,992 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:41:29,994 - Connection failed! Trying again...
+2025-07-10 17:41:41,006 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:41:52,019 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:42:03,032 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:42:04,034 - Connection failed! Trying again...
+2025-07-10 17:42:15,046 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:42:26,059 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:42:37,064 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:42:38,065 - Connection failed! Trying again...
+2025-07-10 17:42:48,586 - Looking for jobs to run
+2025-07-10 17:42:48,589 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 14:12:48 UTC)" (scheduled at 2025-07-10 14:12:48.585584+00:00)
+2025-07-10 17:42:48,590 - Next wakeup is due at 2025-07-10 14:15:48.585584+00:00 (in 179.995062 seconds)
+2025-07-10 17:42:48,599 - Starting new HTTP connection (1): localhost:5000
+2025-07-10 17:42:48,619 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd9afcb7860>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-10 17:42:48,620 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 14:15:48 UTC)" executed successfully
+2025-07-10 17:42:49,077 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:43:00,090 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:43:11,102 - Unable to connect due to network issues: Connection timed out
+2025-07-10 17:43:12,104 - Connection failed! Trying again...
+2025-07-10 18:41:59,694 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 18:41:59,696 - Added job "ping_self" to job store "default"
+2025-07-10 18:41:59,696 - Scheduler started
+2025-07-10 18:41:59,697 - Looking for jobs to run
+2025-07-10 18:41:59,697 - Next wakeup is due at 2025-07-10 15:14:59.694187+00:00 (in 179.996540 seconds)
+2025-07-10 18:42:10,072 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:42:21,086 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:42:32,098 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:42:33,101 - Connection failed! Trying again...
+2025-07-10 18:42:44,113 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:42:55,126 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:43:06,129 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:43:07,130 - Connection failed! Trying again...
+2025-07-10 18:43:18,142 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:43:29,155 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:43:40,167 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:43:41,169 - Connection failed! Trying again...
+2025-07-10 18:43:52,181 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:44:03,193 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:44:14,206 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:44:15,208 - Connection failed! Trying again...
+2025-07-10 18:44:26,219 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:44:37,232 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:44:48,244 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:44:49,246 - Connection failed! Trying again...
+2025-07-10 18:44:59,694 - Looking for jobs to run
+2025-07-10 18:44:59,696 - Running job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 15:14:59 UTC)" (scheduled at 2025-07-10 15:14:59.694187+00:00)
+2025-07-10 18:44:59,696 - Next wakeup is due at 2025-07-10 15:17:59.694187+00:00 (in 179.997259 seconds)
+2025-07-10 18:44:59,700 - Starting new HTTP connection (1): localhost:5000
+2025-07-10 18:44:59,708 - Ping failed with exception: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /alive (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f09e9673410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-07-10 18:44:59,709 - Job "ping_self (trigger: interval[0:03:00], next run at: 2025-07-10 15:17:59 UTC)" executed successfully
+2025-07-10 18:45:00,258 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:45:11,271 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:45:22,283 - Unable to connect due to network issues: Connection timed out
+2025-07-10 18:45:23,285 - Connection failed! Trying again...
+2025-07-10 20:42:47,912 -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.195.208:10000 (Press CTRL+C to quit)
+2025-07-10 20:42:47,914 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 20:42:47,915 - Added job "ping_self" to job store "default"
+2025-07-10 20:42:47,915 - Scheduler started
+2025-07-10 20:42:47,915 - Looking for jobs to run
+2025-07-10 20:42:47,916 - Next wakeup is due at 2025-07-10 17:15:47.914768+00:00 (in 179.998578 seconds)
+2025-07-10 20:42:58,174 - Unable to connect due to network issues: Connection timed out
+2025-07-10 20:43:09,187 - Unable to connect due to network issues: Connection timed out
+2025-07-10 20:52:42,311 -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:10000
+ * Running on http://192.168.198.99:10000 (Press CTRL+C to quit)
+2025-07-10 20:52:42,314 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-07-10 20:52:42,314 - Added job "ping_self" to job store "default"
+2025-07-10 20:52:42,314 - Scheduler started
+2025-07-10 20:52:42,314 - Looking for jobs to run
+2025-07-10 20:52:42,315 - Next wakeup is due at 2025-07-10 17:25:42.314055+00:00 (in 179.999025 seconds)
+2025-07-10 20:52:52,558 - Unable to connect due to network issues: Connection timed out
+2025-07-10 20:53:03,572 - Unable to connect due to network issues: Connection timed out
